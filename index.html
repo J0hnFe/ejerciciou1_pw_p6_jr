@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <div class="container">
+            <div class="pantalla">
+                <div class="textoInicial">
+                    <label id="txtPuntaje" for="">Puntaje: 0</label>
+                    <label id="txtIntentos" for="">Intentos: 0</label>
+                    <label for="">Selecciona el nombre del pokemon correcto</label>
+                </div>
+                <div class="imagen">
+                    <img id="imagenPoke" src="/img/pnegro.jpg" alt="No se pudo cargar la imagen">
+                </div>
+                <div class="botones">
+                    <button id="btn1" onclick="verificar(event)" class="incorrecto">Keldeo-ordinary</button>
+                    <button id="btn2" onclick="verificar(event)" class="incorrecto">Drilbur</button>
+                    <button id="btn3" onclick="verificar(event)" class="incorrecto">Ninjask</button>
+                    <button id="btn4" onclick="verificar(event)" class="incorrecto">Excadrill</button>
+                    <div class="txtMensaje">
+                        <p id="mensaje">texto de prueba</p>
+                    </div>
+                    <button id="btnReiniciar" onclick="reiniciar()">Reiniciar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
